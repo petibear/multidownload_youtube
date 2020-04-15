@@ -1,0 +1,1 @@
+ForEach ($file in (Get-Content -Path .\links.txt)) {youtube-dl.exe $file}
